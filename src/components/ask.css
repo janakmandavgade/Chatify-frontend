@@ -1,0 +1,103 @@
+/* .input-text {
+    width: 85%; 
+    padding: 10px;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    box-sizing: border-box;
+}
+
+.button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    color: white;
+    background-color: #007BFF; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3; 
+} */
+
+/* OLD CODE STARTS HERE */
+
+/* .input-text {
+    width: 720px; 
+    height: 40px;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 0.5rem 0.5rem 0rem 0.5rem;
+    border: none;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3; 
+}
+
+.asktext{
+    margin-left:10px ;
+} */
+
+/* OLD CODE ENDS HERE */
+
+.asktext {
+    margin-left: 10px;
+  
+    @media (max-width: 768px) {
+      margin-left: 0;
+    }
+  }
+  
+  .input-text {
+    width: 890px;
+    height: 40px;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+  
+  .button {
+    padding: 10px 20px;
+    margin: 0.5rem 0.5rem 0rem 0.5rem;
+    border: none;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+

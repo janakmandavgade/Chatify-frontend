@@ -1,0 +1,38 @@
+/* .ssn-btn {
+    display: flex;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    outline: none;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+  }
+  
+  .ssn-btn:hover {
+    background-color: #797979;
+  } */
+
+.ssn-btn {
+  display: flex;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  margin: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; /* Adjust width as needed */
+  outline: none;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Add ellipsis if text is truncated */
+  margin: 0.5rem; /* Adjust spacing between items */
+}
+
+.ssn-btn:hover {
+  background-color: #797979;
+}

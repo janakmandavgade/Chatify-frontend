@@ -1,0 +1,7 @@
+.ftrtext {
+    display: flex;
+    font-size: 20px;
+    color: #333;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,17 @@
+.buton {
+    width: 100%; /* This will make the button extend up to the end of the grid */
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: #007BFF; /* Change this to your preferred button color */
+    cursor: pointer;
+    justify-content: center;
+    margin-left: 4rem;
+    display: flexbox;
+
+    transition: background-color 0.3s ease;
+}
+
+.buton:hover {
+    background-color: #0056b3; /* Change this to your preferred hover color */
+}
